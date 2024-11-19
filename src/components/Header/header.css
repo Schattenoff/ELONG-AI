@@ -1,0 +1,67 @@
+.header {
+    position: relative;
+    padding: 36px 0 0 0;
+    margin: 0 auto;
+    background: url("/img/bg.png") no-repeat;
+    background-size: cover;
+    background-position: 0 40%;
+    height: 959px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__hero {
+    width: 47vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.header__title {
+    font-family: "RiverAdventurerRegular", sans-serif;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 91.39px;
+    text-align: left;
+
+    color: #fff;
+    text-shadow: -6px -6px 0 #01167D,
+    6px -6px 0 #01167D,
+    -6px 6px 0 #01167D,
+    6px 6px 0 #01167D;
+    position: relative;
+    top: 750px;
+}
+
+@media(max-width: 768px) {
+
+    .header {
+        padding: 36px 0 60px 0;
+        height: 36vh;
+        background-position: 32% 40%;
+    }
+
+    .header__title {
+        font-size: 70px;
+        line-height: 65.68px;
+        top: 26vh;
+        text-shadow: -4px -4px 0 #01167D,
+        4px -4px 0 #01167D,
+        -4px 4px 0 #01167D,
+        4px 4px 0 #01167D;
+    }
+
+    .header__hero {
+        width: 70vw;
+    }
+}
+
+@media(max-width: 576px) {
+    .header__title {
+        font-size: 30px;
+        line-height: 25.68px;
+    }
+}

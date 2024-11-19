@@ -1,0 +1,27 @@
+.links__content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 120px 0;
+}
+
+.links__item--img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+}
+
+@media(max-width: 768px) {
+    .links__content {
+        padding: 60px 0;
+        gap: 30px;
+    }
+
+    .links__item--img {
+        width: 80px;
+        height: 80px;
+    }
+}

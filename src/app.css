@@ -1,0 +1,26 @@
+@import '../src/common/fonts/fonts.css';
+@import '../src/common/style/reset.css';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Sansita", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.5px;
+    background: #F1FDFF;
+    color: #410540;
+}
+
+a {
+    color: #410540;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}

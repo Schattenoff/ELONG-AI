@@ -1,0 +1,43 @@
+.mint {
+    background: #D4F1FF;
+    padding: 0;
+}
+
+.mint__content {
+    display: flex;
+    align-items: center;
+}
+
+.mint__img {
+    width: 45vw;
+}
+
+.mint__title {
+    text-transform: uppercase;
+    font-family: "RiverAdventurerRegular", sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 150px;
+    color: #fff;
+    text-shadow: -6px -6px 0 #013D7D,
+    6px -6px 0 #013D7D,
+    -6px 6px 0 #013D7D,
+    6px 6px 0 #013D7D;
+    white-space: pre-line;
+    max-width: 321px;
+    margin-left: 200px;
+}
+
+
+@media(max-width: 768px) {
+
+    .mint__img {
+        width: 60vw;
+    }
+
+    .mint__title {
+        font-size: 70px;
+        line-height: 70px;
+        margin-left: 0;
+    }
+}

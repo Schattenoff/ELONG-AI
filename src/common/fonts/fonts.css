@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'RiverAdventurerRegular';
+	src: url('./river/riveradventurerregular.eot'); /* IE 9 Compatibility Mode */
+	src: url('./river/riveradventurerregular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./river/riveradventurerregular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./river/riveradventurerregular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./river/riveradventurerregular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./river/riveradventurerregular.svg#riveradventurerregular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
