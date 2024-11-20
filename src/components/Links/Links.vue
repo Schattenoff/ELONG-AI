@@ -9,12 +9,12 @@ export default {
         links() {
             return [
                 {
-                    href: 'https://telegram.org/',
+                    href: 'https://t.me/elongsol',
                     url: '/img/links/tg.svg',
                     alt: 'telegram'
                 },
                 {
-                    href: 'https://x.com/',
+                    href: 'https://x.com/elongtomars?s=21',
                     url: '/img/links/twitter.svg',
                     alt: 'x'
                 },
@@ -24,7 +24,7 @@ export default {
                     alt: 'cmc'
                 },
                 {
-                    href: 'https://dexscreener.com/',
+                    href: 'https://dexscreener.com/solana/2on42hk6vxqeskwmdrvikkhacmu2h5rdiuszmwm4w1ks',
                     url: '/img/links/dex.svg',
                     alt: 'dexscreener'
                 },
